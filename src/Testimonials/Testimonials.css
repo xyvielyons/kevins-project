@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  scale: 1.25;
+}
+.testimonials {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+}
+.cont {
+  display: flex;
+  justify-content: space-between;
+}
+.cont h2 {
+  color: rgb(234, 148, 0);
+}
+.information {
+  background-color: rgba(8, 5, 0, 0.059);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 2px 1px rgba(18, 16, 16, 0.413);
+}
+.information h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  scale: 1.2;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .testimonials {
+    flex-direction: column;
+    width: 300px;
+  }
+}

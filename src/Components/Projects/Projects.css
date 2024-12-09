@@ -1,0 +1,59 @@
+.projects {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.projects-container {
+  margin-top: 30px;
+}
+.projects-container img {
+  width: 540px;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+.right-section {
+  justify-content: start;
+}
+.bookings {
+  margin-top: 40px;
+  padding: 10px 20px;
+  background: transparent;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: black;
+  transition: 0.2s all;
+}
+.bookings:hover {
+  background-color: black;
+  color: white;
+}
+@media (max-width: 700px) {
+  .projects {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .right-section {
+    margin-top: 80px;
+  }
+  .right-section h1 {
+    scale: 0.99;
+    text-align: left;
+  }
+  .projects-container img {
+    margin-top: 20px;
+    width: 70%;
+    margin-bottom: 40px;
+    margin: auto;
+    display: flex;
+  }
+}
+@media (max-width: 990px) {
+  .projects {
+    flex-direction: column;
+  }
+  .right-section {
+    margin-top: 80px;
+  }
+}

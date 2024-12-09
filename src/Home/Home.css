@@ -1,0 +1,82 @@
+.hero-img {
+  width: 80%;
+  position: relative;
+  display: flex;
+  border-radius: 10px;
+  margin: auto;
+}
+.img-cont {
+  width: 100%;
+  margin: auto;
+}
+.text-overlay {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 40%;
+  width: 60%;
+  left: 24%;
+}
+.buttons {
+  display: flex;
+  margin-top: 20px;
+  gap: 70px;
+}
+.buttons .btn-1 {
+  background: transparent;
+  color: white;
+  border: 1px solid rgb(255, 221, 0);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.buttons .btn-2 {
+  background: transparent;
+  color: white;
+  border: 1px solid rgb(255, 225, 0);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.buttons .btn-1:hover {
+  background-color: rgba(255, 179, 0, 0.534);
+}
+.buttons .btn-2:hover {
+  background-color: rgba(0, 0, 0, 0.534);
+}
+.overlay-min {
+  display: none;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 50%;
+  left: 14%;
+}
+hr {
+  border: 1px solid rgba(70, 70, 70, 0.685);
+  box-shadow: 0px 1px 0px rgb(223, 223, 223);
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+@media (max-width: 700px) {
+  .text-overlay {
+    display: none;
+  }
+  .overlay-min {
+    left: 24%;
+    display: inline;
+    position: absolute;
+    top: 26%;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 990px) {
+  .text-overlay {
+    position: absolute;
+    top: 20%;
+  }
+  /* .overlay-min {
+    display: inline;
+    position: absolute;
+    top: 20%;
+    overflow-x: hidden;
+  } */
+}
