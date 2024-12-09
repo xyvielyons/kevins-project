@@ -5,13 +5,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev":"vite",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+       "start": "vite --port 3000 --open",
+        "dev": "vite --port 3000 --open",
+        "build": "vite build",
+        "serve": "vite preview --open"
   },
   "dependencies": {
     "react": "^18.3.1",
